@@ -1,0 +1,24 @@
+article div{
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+aside div{
+    margin-bottom: 2%;
+    margin-right: 20%;
+}
+div h1{
+    font-size: 15px;
+    margin-left: 19%;
+}
+div p{
+    margin-left: 19%;
+}
+header{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+i{
+    color: rgb(239, 143, 143);
+    margin-left: 12%;
+}

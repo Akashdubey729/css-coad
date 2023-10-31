@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+            @keyframes mybanner {
+                25%{ font-size: 80px; background-image: linear-gradient(red, blue, green);}
+                50%{ font-size: 50px; background-image: linear-gradient(to left, red, blue, green);}
+                25%{ font-size: 30px; background-image: linear-gradient(to right, red, blue, green);}
+            }
+            section{
+                height: 300px;
+                padding: 100px;
+                font-size: 100px;
+                text-align: center;
+                background: skyblue;
+                color: white;
+                animation: mybanner;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <section> This is Animated Banner.....</section>
+    </body>
+</html>

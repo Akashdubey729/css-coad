@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            main{
+                border: 5px solid black;
+                height: auto;
+            }
+            #block1{
+                border: 2px solid blue;
+                font-size: 30px;
+                text-align: center;
+                padding: 30px;
+                margin: 1%;
+            }
+            #block3{
+                border: 2px solid blue;
+                font-size: 30px;
+                text-align: center;
+                margin: 2%;
+            }
+            #para2{
+                border: 2px solid blue;
+                font-size: 30px;
+                text-align: center;
+                margin: 1%;
+            }
+            #para3{
+                border: 2px solid blue;
+                font-size: 30px;
+                text-align: center;  
+                margin: 2%;
+            }
+            #para4{
+                border: 2px solid blue;
+                font-size: 30px;
+                text-align: center;
+                margin: 2%;
+            }
+            #block5{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+            #block4{
+                display: grid;
+                grid-template-rows: 25% 75%;
+            }
+            #block2{
+                display: grid;
+                grid-template-columns: 25% 75%;
+                min-height: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header id="block1"><div> THIS IS A HEADER</div> </header>
+            <section id="block2">
+                <aside id="block3">
+                    <h1>MENU</h1>
+                    <p>*******<br/>*******<br/>*******</p>
+                </aside>
+                <article id="block4">
+                    <div id="para2"><p> Corner-Center Block </p></div>
+                    <div id="block5">
+                        <div id="para3"><p> Center Left Block </p></div>
+                        <div id="para4"><p> Corner Right Block </p></div>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #block1{
+                padding: 30px;
+                text-align: center;
+                font-size: 40px;
+                border: 2px solid blue;
+            }
+            #block2{
+                min-height: 400px;
+                text-align: center;
+                font-size: 40px;
+                display: grid;
+                grid-template-columns: 25% 75%;
+                min-height: 500px;
+            }
+            #block3{
+                padding: 30px;
+                text-align: center;
+                font-size: 40px;
+                border: 2px solid blue;
+            }
+            #para{
+                margin-top: 150px;
+            }
+            #para2{
+                margin-top: 150px;
+            }
+            aside{
+                border: 2px solid blue;
+                margin: 10px 10px 10px 0px;
+            }
+            article{ 
+                border: 2px solid blue;
+                margin: 10px 0px 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header id="block1">
+                HEADER
+            </header>
+            <section id="block2">
+                <aside><p id="para1">NAVIGATION </p> </aside>
+                <article> <p id="para2">CONTENT</p> </article>
+            </section>
+            <footer id="block3"> FOOTER </footer>
+        </main>
+    </body>
+</html>

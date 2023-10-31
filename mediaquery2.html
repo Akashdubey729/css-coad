@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: red;
+                font-size: 100px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            section{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            section div{
+                color: red;
+                margin: 2%;
+                padding: 1%;
+                font-size: 30px;
+                width: 19%;
+            }
+            /* media query start */
+            @media screen and (min-width:1px) and (max-width:600px)
+             {
+                h1{
+                    color: blueviolet !important;
+                    font-size: 40px !important;
+                }
+                section div{
+                   width: 94% !important;
+                }
+             } 
+            /* media query for medium device */
+            @media screen and (min-width:601px) and (max-width:800px)
+             {
+                h1{
+                    color: goldenrod !important;
+                    font-size: 55px !important;
+                }
+                section div{
+                    width: 44% !important;
+                }
+             }
+            /* media query for large device */
+            @media screen and (min-width:801px) and (max-width:1200px)
+             {
+                h1{
+                    color: orangered !important;
+                    font-size: 65px !important;
+                }
+                section div{
+                   width: 27.33% !important;
+                }
+             }      
+              /* media query for extra large device */
+            @media screen and (min-width:1201px) and (max-width:1300px)
+             {
+                h1{
+                    color: orangered !important;
+                    font-size: 65px !important;
+                }
+                section div{
+                    margin: 1% !important;
+                    padding: 1% !important;
+                }
+             }      
+        </style>
+    </head>
+    <body>
+        <h1> CSS Media Query! </h1>
+        <p> it use to find the width of current window </p>
+        <section>
+        <div> Website Design </div>
+        <div> Logo Design </div>
+        <div> Marketing </div>
+        <div> Employment </div>
+        <div> Email Marketing </div>
+        <div> Template Design </div>
+        <div> Bangalore </div>
+        <div> Mumbai </div>
+        <div> Chennai </div>
+        <div> Kolkata </div>
+        <div> Mangalore </div>
+        <div> Patna </div>
+        <div> Bhopal </div>
+        <div> Bhubanaswar </div>
+        <div> Cuttack </div>
+        </section>
+    </body>
+</html>

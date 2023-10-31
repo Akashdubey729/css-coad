@@ -1,0 +1,57 @@
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 15%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1%;
+}
+#fa1{
+    color: white;
+    padding: 15px 15px 15px;
+}
+#para1{
+    background: blue;
+    border: 1px solid blue;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 39%;
+    margin-bottom: 15%; 
+}
+#para2{
+    background: yellow;
+    border: 1px solid yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 39%;
+    margin-bottom: 15%; 
+}
+#para3{
+    background: grey;
+    border: 1px solid gray;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 39%; 
+    margin-bottom: 15%;  
+}
+h6{
+    text-align: center;
+    color: blue;
+}
+h2{
+    text-align: center;
+}
+header h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+header h6{
+    margin-bottom: 2%;
+    margin-top: 8%;
+}

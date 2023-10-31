@@ -1,0 +1,95 @@
+section div{
+    display: inline-block;
+    margin: 2%;
+    width: 300px;
+    box-shadow: 0px 0px 20px khaki;
+    height: 300px;
+    border-radius: 10px;
+}
+#icon1{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-globe{
+    background-color: lightgreen;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    padding: 10px;
+}
+#icon2{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-anchor{
+    background-color: lightgreen;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    padding: 10px;
+}
+#icon3{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-hourglass-half{
+    background-color: lightgreen;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    padding: 10px; 
+}
+#icon4{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-database{
+    background-color: lightskyblue;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    padding: 10px; 
+}
+#icon5{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-upload{
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    padding: 10px;
+}
+#icon6{
+    color: rgb(72, 49, 49);
+    text-align: center;
+}
+.fa-camera{
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    padding: 10px;
+}
+i{
+    margin-top: 20px;
+}
+h2{
+    color: rgb(90, 66, 66);
+    text-align: center;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+div h1{
+    font-size: 20px;
+}
+div p{
+    text-align: center;
+    margin: 5%;
+}
+span{
+    color: red;
+}
+hr{
+    width: 60px;
+    color: red;
+    border: 2px solid red;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+            main{
+                width: 90%;
+                margin: auto;
+            }
+            #block1{
+                text-align: center;
+                font-size: 40px;
+                padding: 30px;
+                border: 4px solid black;
+                color: green;
+                margin-top: 1%;
+            }
+            #block2{
+                text-align: center;
+                font-size: 40px;
+                padding: 30px;
+                border: 4px solid black;
+                color: green;
+                margin-top: 1%;
+            }
+            #block3{
+                display: grid;
+                grid-template-columns: 25% 50% 25%;
+                text-align: center;
+                font-size: 40px;
+                min-height: 370px;
+                margin-top: 1%;
+                color: green;
+            }
+            #block4{
+                text-align: center;
+                font-size: 30px;
+                border: 4px solid black;
+                padding: 25px;
+                color: green;
+                margin-top: 1%;
+            }
+            aside{
+                border: 4px solid black;
+                margin: 1%;
+                }
+            article{
+                border: 4px solid black;
+                margin: 1%;
+                }
+                #para{
+                    margin-top: 150px;
+                }
+                #con{
+                    margin-top: 150px;
+                }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header id="block1">
+                Header
+            </header>
+            <nav id="block2">
+                Navigation Menu 
+            </nav>
+            <section id="block3">
+                <aside>
+                    <p id="para">Content</p>
+                </aside>
+                <article>
+                    <p id="con">Main Content</p>
+                </article>
+                <aside>
+                   <p id="para"> Content</p>
+                </aside>
+            </section>
+            <footer id="block4"> Footer </footer>
+        </main>
+    </body>
+</html>

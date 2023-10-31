@@ -1,0 +1,76 @@
+Body{
+    margin: 0px;
+}
+h1{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+#block1{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background: red;
+}
+#block2{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background: red;
+    overflow: hidden;
+}
+#block3{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background: red;
+    overflow: scroll;
+}
+#block4{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background: red;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#block2:hover{
+    overflow-y: scroll;
+}
+#block5{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    background: red;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#block6{
+    height: 150px;
+    width: 200px;
+    display: inline-block;
+    margin: 40px;
+    padding: 20px;
+    font-size: 20px;
+    transform: rotate(50deg);
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    transition: transform 1s;
+}
+#block6:hover{
+    transform: rotate(0deg);
+    color: yellow;
+}

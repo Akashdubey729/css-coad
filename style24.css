@@ -1,0 +1,36 @@
+header{
+    background: rgb(209, 152, 152);
+    min-height: 700px;
+    padding: 30px;
+}
+section{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    min-height: 500px;
+}
+aside{
+    background: rgb(113, 113, 113);
+    margin-right: 5%;
+}
+article{
+    background: rgb(138, 78, 78);
+}
+img{
+    height: 250px;
+    width: 300px;
+    background-color: aqua;
+    margin-top: 170px;
+    margin-left: 3%;
+
+}
+aside h1{
+    text-align: center;
+    margin-top: 100px;
+}
+article h1{
+    text-align: center;
+    margin-top: 100px;
+}
+header h1{
+    text-align: center;
+}

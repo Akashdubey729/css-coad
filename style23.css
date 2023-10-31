@@ -1,0 +1,45 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+    background: green;
+    margin-bottom: 0px;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px;
+    border: 0px ;
+    padding: 10px;
+    color: white;
+    margin-left: 2%;
+    text-align: left;
+}
+nav{
+    background: rgb(58, 32, 32);
+    margin: 0px;
+}
+nav ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+section{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    margin: 0px 5% 0px;
+}
+section h1{
+    text-align: center;
+    color: green;
+}
+section p{
+    text-align: justify;
+    margin: 2%;
+}

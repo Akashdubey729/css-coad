@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #block1{
+                display: grid;
+                grid-template-columns: 30% 70%;
+                font-size: 40px;
+                text-align: center;
+                border: 2px solid black;
+            }
+            #block2{
+                padding: 30px;
+                text-align: center;
+                font-size: 40px;
+                box-shadow: 0px 0px 10px black;
+                border: 2px solid black;
+            }
+            #block3{
+                display: grid;
+                grid-template-columns: 25% 50% 25%;
+                text-align: center;
+                font-size: 30px;
+                border: 2px solid black;
+                margin-top: 2%;
+                min-height: 370px;
+            }
+            #block4{
+                display: grid;
+                grid-template-rows: 25% 50% 25%;
+                text-align: center;
+                font-size: 30px;
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+            }
+            #block5{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                text-align: center;
+                font-size: 30px;
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+            #block6{
+                padding: 20px;
+                margin-top: 2%;
+                text-align: center;
+                font-size: 30px;
+                border: 2px solid black;
+                box-shadow: 0px 0px 10px black;
+            }
+            #para1{
+                border-right: 2px solid black;
+            }
+            #para3{
+                margin-top: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div id="block1">
+                <header id="para1">
+                    <p> Header Logo </p>
+                </header>
+                <header>
+                    <p> Header Banner </p>
+                </header>
+            </div>
+            <nav id="block2">
+                Header Bar 
+            </nav>
+            <section id="block3">
+                <aside>
+                    <p> Left Blocks </p> 
+                </aside>
+                <article id="block4">
+                    <p> Corner-Center Block </p>
+                    <div id="block5">
+                        <div id="para1"><p id="para3" > Center Left Block </p></div>
+                        <div ><p id="para3"> Corner Right Block </p></div>
+                    </div>
+                    <p> Module </p>
+                </article>
+                <aside>
+                    <p> Right Block </p>
+                </aside>
+            </section>
+            <footer id="block6"> Footer Bar </footer>
+        </main>
+    </body>
+</html>

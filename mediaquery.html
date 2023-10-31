@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: red;
+                font-size: 100px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            section{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+            }
+            section div{
+                color: red;
+                margin: 40px;
+                padding: 30px;
+                font-size: 30px;
+            }
+            /* media query start */
+            @media screen and (min-width:1px) and (max-width:600px)
+             {
+                h1{
+                    color: blueviolet !important;
+                    font-size: 40px !important;
+                }
+                section{
+                    grid-template-columns: auto !important;
+                }
+                section div{
+                    margin: 15px !important;
+                    padding: 6px !important;
+                }
+             } 
+            /* media query for medium device */
+            @media screen and (min-width:601px) and (max-width:800px)
+             {
+                h1{
+                    color: goldenrod !important;
+                    font-size: 55px !important;
+                }
+                section{
+                    grid-template-columns: auto auto !important;
+                }
+                section div{
+                    margin: 18px !important;
+                    padding: 6px !important;
+                }
+             }
+            /* media query for large device */
+            @media screen and (min-width:801px) and (max-width:1200px)
+             {
+                h1{
+                    color: orangered !important;
+                    font-size: 65px !important;
+                }
+                section{
+                    grid-template-columns: auto auto auto !important;
+                }
+                section div{
+                    margin: 20px !important;
+                    padding: 6px !important;
+                }
+             }      
+              /* media query for extra large device */
+            @media screen and (min-width:1201px) and (max-width:1300px)
+             {
+                h1{
+                    color: orangered !important;
+                    font-size: 65px !important;
+                }
+                section{
+                    grid-template-columns: auto auto auto !important;
+                }
+                section div{
+                    margin: 25px !important;
+                    padding: 6px !important;
+                }
+             }      
+        </style>
+    </head>
+    <body>
+        <h1> CSS Media Query! </h1>
+        <p> it use to find the width of current window </p>
+        <section>
+        <div> Website Design </div>
+        <div> Logo Design </div>
+        <div> Marketing </div>
+        <div> Employment </div>
+        <div> Email Marketing </div>
+        <div> Template Design </div>
+        <div> Bangalore </div>
+        <div> Mumbai </div>
+        <div> Chennai </div>
+        <div> Kolkata </div>
+        <div> Mangalore </div>
+        <div> Patna </div>
+        <div> Bhopal </div>
+        <div> Bhubanaswar </div>
+        <div> Cuttack </div>
+        </section>
+    </body>
+</html>

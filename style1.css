@@ -1,0 +1,60 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#nav1{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+}
+#nav1 li{
+    display: inline-block;
+    padding: 20px 40px 20px;
+    border: px solid white;
+    background-color: blue;  
+}
+#nav1 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav1 li a:hover{
+    background: black;
+    cursor: pointer;
+}
+#city, h2, p{
+    margin-left: 100px;
+}
+#section1 div{
+    display: inline-block;
+    margin: 1%;
+    width: 20%;
+    box-shadow: 0px 0px 10px blue;
+    height: 290px;
+    margin-left:3%;
+}
+#section1 div p{
+    margin-left: 5%;
+}
+img{
+    height: 100px;
+    width: 200px;
+    margin-left: 15%;
+}
+#section1 div h1{
+    margin-left: 5%;
+}
+#ass18{
+    text-align: center;
+}
+#ass18 h1{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+#ass17{
+    text-align: center;
+}
+#ass17 h1{
+    margin-top: 20%;
+    margin-bottom: 5%;
+}

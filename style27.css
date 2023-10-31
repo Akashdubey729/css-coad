@@ -1,0 +1,28 @@
+article div{
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+aside div{
+    margin-bottom: 2%;
+    margin-right: 20%;
+}
+div h1{
+    font-size: 15px;
+    margin-left: 3%;
+}
+div p{
+    margin-left: 3%;
+}
+header{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+i{
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    margin-left: 10%;
+    border-radius: 50%;
+}

@@ -1,0 +1,209 @@
+css - cascading style sheet.
+      it has collection of property and values that use to change the look and feel of html
+
+      in html there are collection of tags but limited property and values . where css has only property & values 
+      so it work as follow
+
+      Responsive webpage = html(tags) + css(property & values)
+
+      Type of css?
+        1. inline
+            ->it is one to one write css code 1 time and use 1 time 
+            ->if one to one then code lenghth will increase
+            ->heavy file take long ti load
+            -> if page is slow to load then user exprience may be bad 
+            -> code modification will take more time
+            -> heavy file take more disk space
+            ->google reject from search index
+            ->heavy file take more internet data
+        --------------------------------------------------------------------------------
+        2. internal
+            ->it is one to many (write css code one time used in html many time)
+            Syntax
+                selector{
+                    property:value;
+                    property2:value;
+                    property3:value:
+                }
+
+                Example
+                Div{
+                    height:200px;
+                    width:200px;
+                    background:green;
+                    margin30px
+                }
+                note- All the html tags are called selector in css.
+                    ->css has given following methods to write css as 1 to many
+                    or
+                    ->type of selector?
+    ------------------------------------------------------------------------------------------------------
+                    1.css for tag name - it also called tag selector
+                     -> Example1.html
+                    Example1.html
+                      div{
+                            font-size: 50px;
+                            color: greenyellow;
+                            margin: 2%;
+                            width: 21%;
+                            background: black;
+                            float: left;
+                        }
+    -------------------------------------------------------------------------------------------------------
+                    2.css for tag group - it also called group selector
+
+                    Example2.html
+                          h1, h2, p, label, section{
+                                                        color: aliceblue;
+                                                        font-size: 50px;
+                                                        font-style: italic;
+                                                    }
+    ---------------------------------------------------------------------------------------------------------
+                    3.css for id        - it also called as id selector
+                    => in 1 page 1 type of design required only 1time then used id 
+                      note -   in 1 page 1 id should be usedonly 1 time
+                    Example3.html
+                             #block3{
+                                        font-size: 40px;
+                                        text-align: center;
+                                        background: skyblue;
+                                        color: black;
+                                        margin: 1%;
+                                    }
+    ----------------------------------------------------------------------------------------------------------                               
+                    4.css for class     - it also called as class selector
+                    => in 1 page 1 type of design required many time.
+                    note - in 1 page 1 class can be used many time.
+                    Example4.html
+
+                     .block2{
+                                margin: 1%;
+                                width: 31.33%;
+                                background: orange;
+                                height: 250px;
+                                font-size: 30px;
+                                color: black;
+                                float: left;
+                                text-align: center;
+                            }   
+    ------------------------------------------------------------------------------------------------------------
+                    5.css foe attribute - it also called as attribute selector
+    -------------------------------------------------------------------------------------------------------------
+                    6.css for parent and child selector - it is also called as child selector
+                    example5.html
+                         #topnav ul li a{
+                                            color: orangered;
+                                            font-size: 25px;
+                                            text-decoration: none;
+                                        }
+    ----------------------------------------------------------------------------------------------------------
+        3. external
+        4. import
+
+      Syntax of inline css
+        <tagname style="property1:value1; property2:value2; property3:value3;">
+            contents
+        </tagname>
+        Example
+        <p style="color:red; height:200px; width:300px; background:white;">
+            Bangalore
+        </P>
+--------------------------------------------------------------------------------------------------------------------
+        List of property 
+            height - 3 types
+                =>height:100px;          -it is fixed all type of window
+                =>min-height:100px;      - the min height is fixed .the max height based on content 
+                =>height:auto;           - minimum and max height base on content
+------------------------------------------------------------------------------------------------------------------------
+            width - 4 types
+                =>width:100px;  -it fixed for all device
+                =>width:100%;  - it fit in all device
+                =>min-width:100px/%;
+                =>max-width:100%/px;
+--------------------------------------------------------------------------------------------------------------------------
+            background - 9 types
+                background:red;
+                background-color:red;
+                background-color:rgb(100, 50, 70);
+                background-color:rgba(100, 60, 90, 0.5);
+                background-image:url("1.jpg");
+                background-image:linear-gradient(red, green, blue);
+                background-image:linear-gradient(to left, red, green, blue);
+                background-image:linear-gradient(to right, red, green, blue);
+                background-image:linear-gradient(to top, red, green, blue);
+
+----------------------------------------------------------------------------------------------------------------------------
+            color - 
+            fornt-size -
+            flot - it convert block level element to in line element
+                flot:left - it start printing from left to right
+                flot:right - it start printing from right to left
+
+            margin - it apply space outside of element
+                margin:auto; it print in center
+                margin : 40px; it apply 40px gap from all side top , left , right , bottom 
+                margin-left:
+                margin-right:
+                margin-top:
+                margine-bottom:
+                margine: top/left/right/bottom
+                    as
+                    margine:50px 30px 50px 60px;
+            padding - it apply space inside of element
+                padding:30px it apply 30px from all side
+                padding-top:
+                padding-left:
+                padding-right:
+                padding-bottom:
+                padding:top left/right/bottam
+        ------------------------------------------------------------------------
+            display - it control the visiblity of element
+                display:none;
+                display:inline; - it print in samme line but width, hight  property will not work.
+                display:inline-block; - it also print in same line but width, hight  property will work
+                display:grid; 
+                display:flex;
+    ---------------------------------------------------------------------------------------------------------------
+            border
+                border:10px solid red;
+                => direction of border 
+                    border : it apply all side border
+                    border-top; 
+                    border-bottom; 
+                    border-left;
+                    border-right;
+                    border-none; - it hide the border 
+
+            -> type of border
+                =>solid
+                =>dotted
+                =>dashed
+                =>double
+                =>inset
+                =>outset
+                =>ridge
+                =>groove
+            
+            Example- border.html
+    ------------------------------------------------------------------------------------------------------------------------
+            box-shadow 
+                box-shadow:from-left from-top density color
+                box-shadow:0px 0px 10px red;
+                Example boxshadow.html
+    -------------------------------------------------------------------------------------------------------------------------
+        <div> Website Design </div>
+        <div> Logo Design </div>
+        <div> Marketing </div>
+        <div> Employment </div>
+        <div> Email Marketing </div>
+        <div> Template Design </div>
+        <div> Bangalore </div>
+        <div> Mumbai </div>
+        <div> Chennai </div>
+        <div> Kolkata </div>
+        <div> Mangalore </div>
+        <div> Patna </div>
+        <div> Bhopal </div>
+        <div> Bhubanaswar </div>
+        <div> Cuttack </div>
+    -------------------------------------------------------------------------------------------------------
